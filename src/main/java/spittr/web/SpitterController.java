@@ -10,7 +10,7 @@ import spittr.data.SpittleRepository;
 @Controller
 @RequestMapping("/spitter")
 public class SpitterController {
-	private SpittleRepository spitterRepository;
+	//private SpittleRepository spitterRepository;
 	
 	@Autowired
 	public SpitterController(SpittleRepository spitterRepository) {
